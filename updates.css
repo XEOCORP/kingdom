@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #941c0f;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+}
+header .logo
+{
+    position: relative;
+    width: 120px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    color:white;
+    cursor: pointer;
+}
+header ul li
+{
+    list-style: none;
+    color:white;
+    cursor: pointer;
+}
+header ul li a:hover
+{
+    transform: translateY(-5px);
+}
+header ul li a
+{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.content
+{
+    position: relative;
+    width: 1500px;
+    margin-top: -250px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    color: #f6b361;
+    transition: 1s;
+}
+.content:hover
+{
+    transform: translateY(-5px);
+}
+.card
+{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 180px 300px 20px;
+    grid-template-areas: "gambar" "text" "stats";
+    border-radius: 18px;
+    margin-top: 20.4%;
+    background: #f6b361;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    transition: 1s ease;
+    cursor: pointer;
+    width: 22.2,2%;
+}
+.gambar
+{
+    grid-area: gambar;
+    background: url("maintenance.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.text
+{
+    grid-area: text;
+    margin: 12px;
+    color: #941c0f;
+}
+.card .date
+{
+    color: #941c0f;
+    font-size: 13px;
+}
+.card p
+{
+    color: #941c0f;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card h2
+{
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card:hover
+{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.akuganteng
+{
+    position: absolute;
+    width: 1500px;
+    top: 15%;
+    left: 0%;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    color: #f6b361;
+    width: 100%;
+    transition: 1s
+}
+.card2
+{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 180px 300px 20px;
+    grid-template-areas: "gambar" "text" "stats";
+    border-radius: 18px;
+    top: 35.6%;
+    left: 39%;
+    background: #f6b361;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    transition: 1s ease;
+    cursor: pointer;
+    width: 22.2,2%;
+}
+.gambar2
+{
+    grid-area: gambar;
+    background: url("update.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.text2
+{
+    grid-area: text;
+    margin: 12px;
+    color: #941c0f;
+}
+.card2 .date2
+{
+    color: #941c0f;
+    font-size: 13px;
+}
+.card2 p
+{
+    color: #941c0f;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card2 h2
+{
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card2:hover
+{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.card3
+{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 180px 300px 20px;
+    grid-template-areas: "gambar" "text" "stats";
+    border-radius: 18px;
+    top: 35.6%;
+    left: 70.2%;
+    background: #f6b361;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    transition: 1s ease;
+    cursor: pointer;
+    width: 22.2,2%;
+}
+.gambar3
+{
+    grid-area: gambar;
+    background: url("info.png");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.text3
+{
+    grid-area: text;
+    margin: 12px;
+    color: #941c0f;
+}
+.card3 .date3
+{
+    color: #941c0f;
+    font-size: 13px;
+}
+.card3 p
+{
+    color: #941c0f;
+    font-size: 15px;
+    font-weight: 300;
+}
+.card3 h2
+{
+    margin-top: 0px;
+    font-size: 28px;
+}
+.card3:hover
+{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f6b361;
+    clip-path: circle(600px at right 1150px);
+    cursor: pointer;
+    transition: 2s;
+}
+.circle:hover
+{
+    transform: scale(1.1);
+}
+.penutup
+{
+    position: absolute;
+    text-align: center;
+    top: 96%;
+    left: -0%;
+    right: 5%;
+    bottom: 5%;
+    text-decoration: none;
+    font-size: 10px;
+    color: #f6b361;
+    width: 100%;
+}
+@media screen and (max-width:1000px){
+    .circle{
+        width: 22.2,2%;
+        margin: 3px;
+        margin-top: 1600px;
+        margin-left: 200px;
+    }
+    .akuganteng{
+        top: 10%;
+        left: 3%;
+    }
+    .card{
+        width: 22.2,2%;
+        margin: 5px;
+        margin-top: -1000px;
+    }
+    .card2{
+        width: 22.2,2%;
+        top: 44%;
+        left: 21%;
+    }
+    .card3{
+        width: 22.2,2%;
+        top: 70%;
+        left: 21%;
+    }
+    section{
+        min-height: 370vh;
+    }
+    .penutup{
+        top: 99%;
+    }
+    
+}
+@media screen and (max-width:360px){
+    header{
+        left: -22%;
+    }
+    .akuganteng{
+        top: 7%;
+        left: 1%;
+    }
+    .card{
+        margin-top: -700%;
+        margin-left: -45%;
+    }
+    .card2{
+        margin-top: -20%;
+        margin-left: -13%;
+    }
+    .card3{
+        margin-top: -20%;
+        margin-left: -13%;
+    }
+    .circle{
+        margin-top: 1705px;
+    }
+}
