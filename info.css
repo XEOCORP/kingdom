@@ -81,7 +81,7 @@ header ul li a
     transition: 0.5s;
     cursor: pointer;
 }
-.content .textBox a:hover
+.content:hover
 {
     transform: translateY(-10px);
 }
