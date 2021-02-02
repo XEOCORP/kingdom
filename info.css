@@ -68,6 +68,8 @@ header ul li a
     text-align: center;
     color: white;
     left: 41.7%;
+    transition: 0.5s;
+    cursor: pointer;
 }
 .content .textBox a
 {
@@ -81,9 +83,9 @@ header ul li a
     transition: 0.5s;
     cursor: pointer;
 }
-.content a:hover
+.content:hover
 {
-    transform: translateY(-10px);
+    transform: scale(1.1);
 }
 .circle
 {
