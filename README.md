@@ -1,1 +1,2 @@
-# kingdom
+# XEOLUX
+Minecraft server Indonesia.
