@@ -28,7 +28,6 @@ section
     padding: 33%;
     align-items: center;
     align-content: center;
-    transition: 1s;
 }
 .notfound p
 {
@@ -39,7 +38,6 @@ section
     justify-content: space-between;
     display: flex;
     top: 55%;
-    transition: 1s;
     font-size: 20%;
 }
 @media screen and (max-width:360px){
